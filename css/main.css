@@ -1,0 +1,165 @@
+/*******************
+	UNIVERSAL
+*******************/
+
+.group:after {
+	display: table;
+	clear: both;
+	content: " ";
+}
+
+• {
+	box-sizing: border-box;
+    -webkit-transition:all .3s ease-in-out;
+    -moz-transition:all .3s ease-in-out;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+/*******************
+	BODY
+*******************/
+
+.wrapper {
+
+}
+
+/*******************
+	HEADER
+*******************/
+
+.header {
+	
+}
+
+.logo {
+
+}
+
+.search {
+
+}
+
+.dropdown-menu {
+
+}
+
+.dropdown-content {
+
+}
+
+.profile-pic {
+	border-radius: 100%;
+}
+
+/*******************
+	HERO
+*******************/
+
+.hero {
+
+}
+
+.hero-title {
+
+}
+
+.hero-content {
+
+}
+
+/*******************
+	NAVIGATION
+*******************/
+
+.navbar {
+
+}
+
+.top-nav {
+
+}
+
+.bottom-nav {
+
+}
+
+.bottom-nav-title {
+
+}
+
+/*******************
+	MAIN CONTENT 
+*******************/
+
+.main {
+
+}
+
+.main-header {
+
+}
+
+.main-nav {
+
+}
+
+.main-nav-popular {
+
+}
+
+.main-nav-newest {
+
+}
+
+.main-section {
+
+}
+
+.main-sect-img {
+
+}
+
+.main-sect-title {
+
+}
+
+.main-sect-descript {
+
+}
+
+.upvote {
+
+}
+
+.comments {
+
+}
+
+.comments-icon {
+
+}
+
+.add-collection {
+
+}
+
+.type {
+
+}
+
+/*******************
+	FOOTER
+*******************/
+
+
+
+
+
+
+
+
+
