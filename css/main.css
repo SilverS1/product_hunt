@@ -134,9 +134,10 @@ a {
 .navbar {
 	float: left;
 	/* padding: 2%; */
-	margin: 30px 1.1%;
 	/* background-color: blue; */
-	margin-left: 160px;
+	/* margin-left: 160px; */
+	width: 145px;
+	margin: 30px 15px 0 30px;
 }
 
 .top-nav {
@@ -171,7 +172,7 @@ a {
 	display: list-item;
 	list-style-type: none;
 	font-size: 14px;
-	padding: 10% 0;
+	padding: 5% 0;
 	color: #999;
 }
 
@@ -187,8 +188,8 @@ a {
 	background-color: #FFF;
 	float: left;
 	border: 1px solid lightgrey;
-	padding: .5%;
-	margin: 2.5% 2%;
+	padding: 15px;
+	margin: 30px 15px;
 	width: 683px;
 }
 
@@ -233,7 +234,6 @@ a {
 
 .main-section {
 	margin: 20px;
-	background-color: red;
 }
 
 .main-sect-img {
@@ -241,16 +241,20 @@ a {
 	float: left;
 }
 
-.main-sect-title {
-	color: black;
-	font-weight: normal;
-	margin-left: 15px;
+.main-sect-info {
+	margin: 20px 0 0 20px;
 	float: left;
 }
 
+.main-sect-title {
+	color: black;
+	font-weight: normal;
+	padding: 2.5px;
+}
+
 .main-sect-descript {
-	float: left;
-	margin-left: 15px;
+	color: #999;
+	padding: 2.5px;
 }
 
 .upvote {
