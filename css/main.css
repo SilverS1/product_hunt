@@ -18,6 +18,7 @@
 
 html {
 	background-color: #F9F9F9;
+	height: 2000px;
 }
 
 * {
@@ -26,7 +27,6 @@ html {
 
 a {
 	text-decoration: none;
-	color: black;
 }
 
 /*******************
@@ -42,39 +42,21 @@ a {
 *******************/
 
 .header {
-	/* background-color: blue; */
 	height: 50px;
-	padding: .3% 2%;
+	padding: .3% 1.4%;
 	background-color: #FFF;
 }
 
-/* Below temporarily not needed */
-
-/* 
-.logo {
-	background-color: #DA552F;
-	color: white;
-	border-radius: 100%;
-	width: 3%;
-	text-align: center;
-	line-height: 2.1em;
-	font-weight: bold;
-	font-family: Helvetica;
-	float: left;
-	font-size: 1.4em;
-	padding: .3%;
-	font-family: Arial;
-}
- */
-
 .logo {
 	float: left;
+	margin: .2%;
 }
 
 .search {
 	float: left;
-	margin: 12.5px 1%;
+	margin: 10px 1%;
 	width: 275px;
+	font-size: 100%;
 }
 
 .dropdown-menu {
@@ -87,38 +69,62 @@ a {
 
 .profile-pic {
 	border-radius: 100%;
-	height: 74%;
-	width: 32.5px;
+	height: 32px;
+	width: 32px;
 	float: right;
 	background-color: green;
-	margin: 5px 1.8% 0 0;
+	margin: 5px 20px 0 0;
 }
 
 /*******************
 	HERO
 *******************/
 
+
+.hero:hover {
+	-webkit-filter: grayscale;
+	-webkit-filter: brightness(80%); 
+}
+
+
 .hero {
-	background-image: url("../images/hero1.png");
+	background-image: url("../images/hero3.png");
 	background-repeat: no-repeat;
 	background-size: 100% 100%; 
-	background-color: blue;
+	background-position: cover;
+	background-color: black;
 	float: left;
 	width: 100%;
-	height: 240px;
+	height: 260px;
+	position: relative;
 }
 
 .hero-title {
 	color: white;
 	font-weight: normal;
-	padding: 1.5%;
+	font-size: 1.9em;
+	padding: 25px;
 	float: left;
+	position: absolute; 
+	bottom: 18%;
+}
+
+.hero-upvote {
+	width: 34px;
+	float: left;
+	position: absolute;
+	bottom: 0;
+	margin: 20px;
+	border-right: 1px solid white;
 }
 
 .hero-content {
 	color: white;
-	padding: 1.5%;
+	padding: 30px;
 	float: left;
+	position: absolute; 
+	bottom: 0;
+	left: 55px;
 }
 
 /*******************
@@ -126,11 +132,27 @@ a {
 *******************/
 
 .navbar {
-
+	float: left;
+	/* padding: 2%; */
+	margin: 30px 1.1%;
+	/* background-color: blue; */
+	margin-left: 160px;
 }
 
 .top-nav {
+	
+}
 
+.top-nav-link {
+	display: list-item;
+	list-style-type: none;
+	line-height: 30px;
+	font-size: 14px;
+	color: #999;
+}
+
+.top-nav-link:hover {
+	color: black;
 }
 
 .bottom-nav {
@@ -138,7 +160,23 @@ a {
 }
 
 .bottom-nav-title {
+	margin-top: 40px;
+	padding: 5% 0;
+	border-bottom: 1px solid grey;
+	font-size: 14px;
+	text-transform: uppercase;
+}
 
+.bottom-nav-link {
+	display: list-item;
+	list-style-type: none;
+	font-size: 14px;
+	padding: 10% 0;
+	color: #999;
+}
+
+.bottom-nav-link:hover {
+	color: black;
 }
 
 /*******************
@@ -147,38 +185,72 @@ a {
 
 .main {
 	background-color: #FFF;
+	float: left;
+	border: 1px solid lightgrey;
+	padding: .5%;
+	margin: 2.5% 2%;
+	width: 683px;
 }
 
 .main-header {
+	border-bottom: 1px solid lightgrey;
+	padding: 15px;
+}
 
+.main-header-title {
+	float: left;
+	font-size: 20px;
+	font-weight: normal;
 }
 
 .main-nav {
+	float: right;
+	text-transform: uppercase;
+	font-size: 12px;
+	letter-spacing: 1.6px;
+}
 
+.main-nav a {
+	color: #999;
+}
+
+.main-nav a:hover {
+	text-decoration: underline;
+}
+
+.main-nav a:active {
+	color: black;
 }
 
 .main-nav-popular {
-
+	border-right: 1px solid #999;
+	padding: 5px;
 }
 
 .main-nav-newest {
-
+	padding: 5px;
 }
 
 .main-section {
-
+	margin: 20px;
+	background-color: red;
 }
 
 .main-sect-img {
 	height: 110px;
+	float: left;
 }
 
 .main-sect-title {
-
+	color: black;
+	font-weight: normal;
+	margin-left: 15px;
+	float: left;
 }
 
 .main-sect-descript {
-
+	float: left;
+	margin-left: 15px;
 }
 
 .upvote {
