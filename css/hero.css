@@ -1,0 +1,48 @@
+/*******************
+	HERO
+*******************/
+
+.hero:hover {
+	-webkit-filter: grayscale;
+	-webkit-filter: brightness(80%); 
+}
+
+.hero {
+	background-image: url("../images/hero3.png");
+	background-repeat: no-repeat;
+	background-size: 100% 100%; 
+	background-position: cover;
+	background-color: black;
+	float: left;
+	width: 100%;
+	height: 260px;
+	position: relative;
+}
+
+.hero-title {
+	color: white;
+	font-weight: normal;
+	font-size: 1.9em;
+	padding: 25px;
+	float: left;
+	position: absolute; 
+	bottom: 18%;
+}
+
+.hero-upvote {
+	width: 34px;
+	float: left;
+	position: absolute;
+	bottom: 0;
+	margin: 20px;
+	border-right: 1px solid white;
+}
+
+.hero-content {
+	color: white;
+	padding: 30px;
+	float: left;
+	position: absolute; 
+	bottom: 0;
+	left: 55px;
+}

@@ -30,256 +30,135 @@ a {
 }
 
 /*******************
-	BODY
+	CONTENT 
 *******************/
 
-.wrapper {
-	
-}
-
-/*******************
-	HEADER
-*******************/
-
-.header {
-	height: 50px;
-	padding: .3% 1.4%;
-	background-color: #FFF;
-}
-
-.logo {
-	float: left;
-	margin: .2%;
-}
-
-.search {
-	float: left;
-	margin: 10px 1%;
-	width: 275px;
-	font-size: 100%;
-}
-
-.dropdown-menu {
-	float: right;
-}
-
-.dropdown-content {
-
-}
-
-.profile-pic {
-	border-radius: 100%;
-	height: 32px;
-	width: 32px;
-	float: right;
-	background-color: green;
-	margin: 5px 20px 0 0;
-}
-
-/*******************
-	HERO
-*******************/
-
-
-.hero:hover {
-	-webkit-filter: grayscale;
-	-webkit-filter: brightness(80%); 
-}
-
-
-.hero {
-	background-image: url("../images/hero3.png");
-	background-repeat: no-repeat;
-	background-size: 100% 100%; 
-	background-position: cover;
-	background-color: black;
-	float: left;
+.content {
 	width: 100%;
-	height: 260px;
-	position: relative;
-}
-
-.hero-title {
-	color: white;
-	font-weight: normal;
-	font-size: 1.9em;
-	padding: 25px;
-	float: left;
-	position: absolute; 
-	bottom: 18%;
-}
-
-.hero-upvote {
-	width: 34px;
-	float: left;
-	position: absolute;
-	bottom: 0;
-	margin: 20px;
-	border-right: 1px solid white;
-}
-
-.hero-content {
-	color: white;
-	padding: 30px;
-	float: left;
-	position: absolute; 
-	bottom: 0;
-	left: 55px;
-}
-
-/*******************
-	NAVIGATION
-*******************/
-
-.navbar {
-	float: left;
-	/* padding: 2%; */
-	/* background-color: blue; */
-	/* margin-left: 160px; */
-	width: 145px;
-	margin: 30px 15px 0 30px;
-}
-
-.top-nav {
-	
-}
-
-.top-nav-link {
-	display: list-item;
-	list-style-type: none;
-	line-height: 30px;
-	font-size: 14px;
-	color: #999;
-}
-
-.top-nav-link:hover {
-	color: black;
-}
-
-.bottom-nav {
-
-}
-
-.bottom-nav-title {
-	margin-top: 40px;
-	padding: 5% 0;
-	border-bottom: 1px solid grey;
-	font-size: 14px;
-	text-transform: uppercase;
-}
-
-.bottom-nav-link {
-	display: list-item;
-	list-style-type: none;
-	font-size: 14px;
-	padding: 5% 0;
-	color: #999;
-}
-
-.bottom-nav-link:hover {
-	color: black;
 }
 
 /*******************
 	MAIN CONTENT 
 *******************/
 
-.main {
+.product {
 	background-color: #FFF;
 	float: left;
-	border: 1px solid lightgrey;
-	padding: 15px;
+	border: 1px solid #e6e6e6;
 	margin: 30px 15px;
 	width: 683px;
 }
 
-.main-header {
+.product-header {
 	border-bottom: 1px solid lightgrey;
-	padding: 15px;
+	padding: 22px 20px;
+	
 }
 
-.main-header-title {
+.product-header-title {
 	float: left;
 	font-size: 20px;
 	font-weight: normal;
 }
 
-.main-nav {
+.product-nav {
 	float: right;
 	text-transform: uppercase;
 	font-size: 12px;
 	letter-spacing: 1.6px;
 }
 
-.main-nav a {
+.product-nav a {
 	color: #999;
 }
 
-.main-nav a:hover {
+.product-nav a:hover {
 	text-decoration: underline;
 }
 
-.main-nav a:active {
+.product-nav a:active {
 	color: black;
 }
 
-.main-nav-popular {
+.product-nav-popular {
 	border-right: 1px solid #999;
 	padding: 5px;
 }
 
-.main-nav-newest {
+.product-nav-newest {
 	padding: 5px;
 }
 
-.main-section {
-	margin: 20px;
+.product-section:hover {
+	background-color: #f8f8f8;
 }
 
-.main-sect-img {
+.product-section {
+	border-bottom: 1px solid lightgrey;
+	padding: 4% 40px;
+}
+
+.product-sect-img {
 	height: 110px;
 	float: left;
 }
 
-.main-sect-info {
+.product-sect-info {
 	margin: 20px 0 0 20px;
 	float: left;
 }
 
-.main-sect-title {
+.product-sect-title {
 	color: black;
 	font-weight: normal;
 	padding: 2.5px;
+	font-size: 18px
 }
 
-.main-sect-descript {
+.product-sect-descript {
 	color: #999;
 	padding: 2.5px;
+	font-size: 14px;
+}
+
+.product-options {
+	
 }
 
 .upvote {
-
+	height: 24px;
+	width: 42px;
+	border: 1px solid lightgrey;
+	padding: 4px;
+	background-color: white;
+	float: left;
+	margin: 5px;
 }
 
-.comments {
-
+.upvotes {
+	color: black;
+	font-size: 13px;
+	float: right;
 }
 
 .comments-icon {
-
+	height: 26px;
+	width: 44px;
+	float: left;
+	margin: 5px;
+	border: 1px solid #f2f2f2;
 }
 
 .add-collection {
-
+	
 }
 
 .type {
-
+	float: right;
+	font-size: 14px;
+	color: #999;
+	border-bottom: 1px solid #f3f3f3;
 }
-
-/*******************
-	FOOTER
-*******************/
 
 
 

@@ -1,0 +1,56 @@
+/*******************
+	NAVIGATION
+*******************/
+
+.navbar {
+	float: left;
+	width: 145px;
+	margin: 30px 15px 0 30px;
+}
+
+.top-nav {
+	
+}
+
+.top-nav-link {
+	display: list-item;
+	list-style-type: none;
+	line-height: 30px;
+	font-size: 14px;
+	color: #999;
+	padding: 1.3px;
+}
+
+.top-nav-link:hover {
+	color: black;
+	display: inline-block;
+	background-color: #f2f2f2;
+}
+
+.bottom-nav {
+
+}
+
+.bottom-nav-title {
+	margin-top: 30px;
+	padding: 6% 0;
+	line-height: 30px;
+	border-bottom: 1px solid #f2f2f2;
+	font-size: 14px;
+	text-transform: uppercase;
+}
+
+.bottom-nav-link {
+	display: list-item;
+	list-style-type: none;
+	font-size: 14px;
+	color: #999;
+	line-height: 30px;
+	padding: 1.3px;
+}
+
+.bottom-nav-link:hover {
+	color: black;
+	display: inline-block;
+	background-color: #f2f2f2;
+}

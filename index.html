@@ -3,22 +3,23 @@
 <head>
 	<title>Product Hunt</title>
 	<link rel = "stylesheet" href = "css/main.css" type = "text/css" >
+	<link rel = "stylesheet" href = "css/header.css" >
+	<link rel = "stylesheet" href = "css/hero.css" >
+	<link rel = "stylesheet" href = "css/navigation.css" >
 	<meta charset="utf-8">
-	<script>
-		
-	</script>
 </head>
 <body>
-	<div class = "wrapper">
+
+	<header class = "header group">
 	
-		<header class = "header group">
+		<a href = "index.html">
+			<img class = "logo" src = "images/logo.png" >
+		</a>
+		<input class = "search" type = "search" placeholder = "Discover your next favourite thing..." >
 		
-			<a href = "">
-				<img class = "logo" src = "images/logo.png" >
-			</a>
-			<input class = "search" type = "search" placeholder = "Discover your next favourite thing..." >
-			
-			<div class = "dropdown-menu">
+		
+		<div class = "header-right" >
+			<div class = "dropdown-menu">...
 				<div class = "dropdown-content">
 					<a href = ""></a>
 					<a href = ""></a>
@@ -35,19 +36,20 @@
 				<img class = "profile-pic" src = "https://38.media.tumblr.com/avatar_4f673b688d73_128.png" 
 				alt = "Your profile picture">
 			</a>
-			
-		</header>
+		</div>
 		
-		
-		<a class = "hero-link" href = "">
-			<div class = "hero group">
-				<h1 class = "hero-title">User Interviews</h1>
-				<img class = "hero-upvote" src = "images/whiteupvote.png" >
-				<p class = "hero-content">Click here to see the latest interviews!</p>
-			</div>
-		</a>
-		
-		
+	</header>
+	
+	<a class = "hero-link" href = "">
+		<div class = "hero">
+			<h1 class = "hero-title">User Interviews</h1>
+			<img class = "hero-upvote" src = "images/whiteupvote.png" >
+			<p class = "hero-content">Click here to see the latest interviews!</p>
+		</div>
+	</a>
+	
+	<div class = "content">
+	
 		<nav class = "navbar">
 			<div class = "top-nav">
 				<a class = "top-nav-link" href = "">Home</a>
@@ -62,41 +64,75 @@
 				<a class = "bottom-nav-link" href = "">Podcasts</a>
 			</div>
 		</nav>
-		
-		<main class = "main group">
-		
-			<div class = "main-header group">
-				<h2 class = "main-header-title">Today</h2>
-				<div class = "main-nav">
-					<a class = "main-nav-popular" href = "">	Popular</a>
-					<a class = "main-nav-newest" href = "">		Newest</a>
+	
+		<div class = "product">
+	
+			<div class = "product-header group">
+				<h2 class = "product-header-title">Today</h2>
+				<div class = "product-nav">
+					<a class = "product-nav-popular" href = "">     Popular</a>
+					<a class = "product-nav-newest" href = "">		Newest</a>
 				</div>
 			</div>
-			
-			<div class = "main-section group">
-				<a href = "">
-					<img class = "main-sect-img group" src = "images/slack.png" alt = "Product picture">
-					<div class = "main-sect-info group">
-						<h3 class = "main-sect-title">Slack News Feed</h3>
-						<p class = "main-sect-descript">
+		
+			<a href = "">
+				<div class = "product-section group">
+		
+					<img class = "product-sect-img" src = "images/slack.png" alt = "Product picture">
+					<div class = "product-sect-info">
+						<h3 class = "product-sect-title">Slack News Feed</h3>
+						<p class = "product-sect-descript">
 							Get the top posts from every chat you're in.
 						</p>
-					</div>
-					<!-- 
-<div class = "upvote">92</div>
-					<div class = "comments">
-						<img class = "comments-icon" src = "" alt = "Comments icon">
-					</div>
-					<div class = "add-collection">
- -->
 						
+						<div class = "product-options">
+							<button class = "upvote">
+									<p class = "upvotes">88</p>
+							</button>
+							<div class = "comments">
+								<img class = "comments-icon" src = "images/comments.png" alt = "Comments icon">
+							</div>
+							<div class = "add-collection">
+					
+							</div>
+						</div>
 					</div>
 					<p class = "type">Slack</p>
-				</a>
-			</div>
 			
-		</main>
+				</div>
+			</a>
+		
+		
+		<!-- 
+	<a href = "">
+				<div class = "main-section group">
+						<img class = "main-sect-img group" src = "images/gandalf.jpg" alt = "Product picture">
+						<div class = "main-sect-info group">
+							<h3 class = "main-sect-title">Gandalf</h3>
+							<p class = "main-sect-descript">
+								Gandalf Gandalf Gandalf Gandalf.
+							</p>
+				
+							<div class = "upvote">
+								<img src = "">
+								<p>88</p>
+							</p>
+							<div class = "comments">
+								<img class = "comments-icon" src = "images/comments.png" alt = "Comments icon">
+							</div>
+							<div class = "add-collection">
+					
+							</div>
+						</div>
+						<p class = "type">Wizard</p>
+			
+				</div>
+			</a>
+ -->
+		
+		</div>
 	
 	</div>
+
 </body>
 </html>
