@@ -14,6 +14,10 @@
 }
 
 .search {
+	background-image: url("../images/logo.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%; 
+	background-position: cover;
 	float: left;
 	margin: 10px 1%;
 	width: 275px;
@@ -22,19 +26,51 @@
 
 .header-right {
 	float: right;
-	width: 10%;
+	width: 129px;
 }
 
 .dropdown-menu {
 	float: left;
-	line-height: 2em;
+	line-height: 2.3em;
 	letter-spacing: 2px;
 	font-weight: bold;
 	color: #999;
 }
 
+.dropdown-menu:hover {
+	color: #de5338;
+	cursor: pointer;
+}
+
 .dropdown-content {
 
+}
+
+.plus {
+	float: left;
+	line-height: 1.7em;
+	color: #999;
+	font-size: 28px;
+	padding: 0 8px;
+}
+
+.plus:hover {
+	color: #de5338;
+	cursor: pointer;
+}
+
+.bell {
+	background-image: url("../images/bell.png");
+	background-size: 100% 100%;
+	height: 14px;
+	width: 14px;
+	float: left;
+	margin: 13px 0;
+}
+
+.bell:hover {
+	background-image: url("../images/redbell.png");
+	cursor: pointer;
 }
 
 .profile-pic {
