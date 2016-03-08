@@ -14,11 +14,13 @@
 }
 
 .header-form {
-
+	
 }
 
 .search-icon {
-	
+	background-image: url("../images/gandalf.jpg");
+	background-size: 100% 100%;
+	left: 0;
 }
 
 .search {
@@ -37,7 +39,7 @@
 	width: 129px;
 }
 
-.dropdown-menu {
+.logged-in-dropdown {
 	float: left;
 	line-height: 2.3em;
 	letter-spacing: 2px;
@@ -45,7 +47,7 @@
 	color: #999;
 }
 
-.dropdown-menu:hover {
+.logged-in-dropdown:hover {
 	color: #de5338;
 	cursor: pointer;
 }
@@ -88,4 +90,27 @@
 	float: right;
 	background-color: green;
 	margin: 5px 20px 0 0;
+}
+
+.login {
+	float: right;
+	text-transform: uppercase;
+	color: #999;
+	margin: 16px 25px 10px 0;
+	font-size: 12px;
+	font-weight: bold;	
+}
+
+.logged-out-dropdown {
+	margin-left: 33px;
+	float: left;
+	line-height: 2.3em;
+	letter-spacing: 2px;
+	font-weight: bold;
+	color: #999;
+}
+
+.logged-out-dropdown:hover {
+	color: #de5338;
+	cursor: pointer;
 }
