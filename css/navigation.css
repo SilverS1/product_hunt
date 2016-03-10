@@ -9,7 +9,8 @@
 }
 
 .top-nav {
-	
+	list-style: none;
+	width: 100%;
 }
 
 .top-nav-link {
