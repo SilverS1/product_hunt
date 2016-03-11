@@ -101,6 +101,10 @@
 	font-weight: bold;	
 }
 
+.login:hover {
+	color: #de5338;
+}
+
 .logged-out-dropdown {
 	margin-left: 44px;
 	float: left;

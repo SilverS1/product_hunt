@@ -76,6 +76,7 @@
 .product-sect-info {
 	margin: 20px 0 0 20px;
 	float: left;
+	width: 551px;
 }
 
 .product-sect-title {
@@ -92,7 +93,7 @@
 }
 
 .product-options {
-	
+	margin-top: 10px;
 }
 
 .upvote {
