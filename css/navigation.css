@@ -11,17 +11,25 @@
 }
 
 .top-nav-link {
-	display: list-item;
-	line-height: 30px;
 	color: #999;
-	padding: 1px;
+	padding: 4px 5px;
+	margin: 5px 0;
+	display: inline-block;
 }
 
 .top-nav-link:hover {
 	color: black;
 	display: inline-block;
 	background-color: #f2f2f2;
+	padding: 4px 5px;
+	margin: 5px 0;
 }
+
+
+.top-nav-link-list {
+	
+}
+
 
 .bottom-nav-title {
 	margin: 46px 0 10px 0;
@@ -33,14 +41,16 @@
 }
 
 .bottom-nav-link {
-	display: list-item;
+	display: inline-block;
 	color: #999;
-	line-height: 30px;
-	padding: .5px 1px;
+	padding: 4px 5px;
+	margin: 5px 0;
 }
 
 .bottom-nav-link:hover {
 	color: black;
 	display: inline-block;
 	background-color: #f2f2f2;
+	padding: 4px 5px;
+	margin: 5px 0;
 }

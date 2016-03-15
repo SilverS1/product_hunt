@@ -30,6 +30,7 @@
 	font-size: 12px;
 	letter-spacing: 1.2px;
 	margin: 5.5px 0 2.5px 0;
+	display: inline-block;
 }
 
 .product-nav a {
@@ -45,12 +46,19 @@
 }
 
 .product-nav-popular {
-	border-right: 1px solid #999;
-	padding: 5px;
+	padding: 5px 0;
+	display: inline;
+}
+
+.product-nav-seperator {
+	display: inline;
+	color: #f2f2f2;
+	font-size: 15px;
 }
 
 .product-nav-newest {
-	padding: 5px;
+	padding: 5px 0;
+	display: inline;
 }
 
 .product-section:hover {
@@ -133,6 +141,10 @@
 	background-color: white;
 }
 
+.add-collection:hover {
+	background-color: #f2f2f2;
+}
+
 .add-collection-save {
 	float: right;
 	margin: 7px 5px;
@@ -161,6 +173,10 @@
 	width: 100%;
 }
 
+.email:hover {
+	background-color: #f2f2f2;
+}
+
 .product-section:hover .email {
 	visibility: visible;
 }
@@ -172,3 +188,6 @@
 	border-bottom: 1px solid #f3f3f3;
 }
 
+.type:hover {
+	border-bottom: 1px solid #999;
+}
