@@ -17,24 +17,54 @@
 	color: #999;
 	line-height: 18px;
 	font-size: 14px;
-	margin-top: 10px;
+	margin: 10px 0 20px 0;
 }
 
 .social-twitter {
 	width: 208px;
 	height: 36px;
 	background-color: #26ACED;
-	border-radius: 6%;
+	border-radius: 5px;
 	color: white;
 	font-size: 12px;
 	text-transform: uppercase;
-	letter-spacing: 1.1px;
+	letter-spacing: .9px;
+	line-height: 40px;
+	margin-bottom: 10px;
 }
 
 .social-twitter-words {
-	margin: 5%;
+	margin-right: 18px;
+ 	float: right;
+}
+
+.twitter-icon {
+	width: 18px;
+	height: 18px;
+	float: left;
+	margin: 8px 0 8px 24px;
 }
 
 .social-facebook {
+	width: 208px;
+	height: 36px;
+	background-color: #3B5898;
+	border-radius: 5px;
+	color: white;
+	font-size: 12px;
+	text-transform: uppercase;
+	letter-spacing: .9px;
+	line-height: 40px;
+}
 
+.social-facebook-words {
+	margin-right: 18px;
+	float: right;
+}
+
+.facebook-icon {
+	width: 15px;
+	height: 26px;
+	float: left;
+	margin: 6px 0 8px 15px;
 }
